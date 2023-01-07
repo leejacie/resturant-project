@@ -13,6 +13,7 @@ body{
     justify-content: space-evenly;
 }
 .drink{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -21,4 +22,278 @@ body{
    display: flex;
    flex-direction: row;
    justify-content: space-evenly; 
+}
+.f1, .f2, .f3, .d1, .d2, .d3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+  #bear{
+    background-image:url(barytoast.jpeg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #sando{
+    background-image: url(strawsando.JPG);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #bingsu{
+    background-image: url(strawbingsu.JPG);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #latte{
+    background-image: url(strawberrylatte.jpeg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #milk{
+    background-image: url(strawberrymilk2.jpeg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #parf{
+    background-image: url(strawparf.JPG);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* The actual popup */
+  .bpu .btext{
+    visibility: hidden;
+    background-color: #97A97C;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    border-radius: 3%;
+  }
+  .sandpu .sandotext{
+    visibility: hidden;
+    background-color: #87986A;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    border-radius: 3%;
+  }
+
+  .bingpu .bingtext{
+    visibility: hidden;
+    background-color: #718355;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    border-radius: 3%;
+  }
+  .latpu .lattext{
+    visibility: hidden;
+    background-color: #97A97C;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    left: 6.75%;
+    border-radius: 3%;
+  }
+  .mpu .milktext{
+    visibility: hidden;
+    background-color: #87986A;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    left: 6.75%;
+    border-radius: 3%;
+  }
+  .ppu .parftext{
+    visibility: hidden;
+    background-color: #718355;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    left: 6.75%;
+    border-radius: 3%;
+  }
+/*Toggle this class - hide and show the popup */
+  .bpu .show{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  .sandpu .show2{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  .bingpu .show3{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  .latpu .show4{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  .mpu .show5{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  .ppu .show6{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+.tdis1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.toastpic{
+  background-image: url(barytoast.jpeg);
+  width: 278%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.sdis1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sandotext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sandpic{
+  background-image: url(strawsando.JPG);
+  width: 200%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+.bdis1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bingtext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bingpic{
+  background-image: url(strawbingsu.JPG);
+  width: 226%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.ldis1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.lattext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.latpic{
+  background-image: url(strawberrylatte.jpeg);
+  width: 230%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.mdis1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.milktext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.milpic{
+  background-image: url(strawberrymilk2.jpeg);
+  width: 190%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.pdis1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.parftext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.parfpic{
+  background-image: url(strawparf.JPG);
+  width: 275%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
 }
