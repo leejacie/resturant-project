@@ -15,7 +15,11 @@
                 <a href="index.html"><img src="cafelogo.png" class="logo" width="165" height="150"></a>
             </div>
             <h1>Cafe Straw-Beary</h1>
+            <div class="pp">
             <h3>Menu</h3>
+            <button onclick="pay()" class="money">PAY!</button>
+            </div>
+
         </div>  
         
         <div class="menu">
@@ -29,11 +33,6 @@
                                 <p><b>Beary Toast</b></p>
                                 <p>$10.50</p>
                                 <p class="tdis1">A savory version of toast, made with simple ingredients. From Japanese style Milk bread with layers of thin grilled Hawaiian Ham. Topped with locally harvested chicken eggs, whipped till they become soft like a cloud. The toast is both cute and well balanced, perfect for a light meal. </p>
-                                <div class="counter">
-                                <h1 class="counter-display">(..)</h1>
-                                <button class="counter-minus">-</button>
-                                <button class="counter-plus">+</button>
-                                </div>
                                 </div>
                             </div>
                         </div>
@@ -41,6 +40,12 @@
                     <div class="f1">
                         <h3>Beary Toast</h3>
                         <h3>$10.50</h3>
+                        <div class="buttons">
+                            <select id="selectNumber" onclick="numbers()">
+                                <option>Amount</option>
+                            </select>
+                        <button onclick="add()">Add</button>
+                        </div>
                     </div>
                 </div>
                 
@@ -60,6 +65,12 @@
                     <div class="f2">
                         <h3>Straw-Beary Sando</h3>
                         <h3>$12.50</h3>
+                        <div class="buttons">
+                            <select id="selectNumber2" onclick="numbers2()">
+                                <option>Amount</option>
+                            </select>
+                        <button onclick="add2()">Add</button>
+                        </div>
                     </div>
                 </div>
                
@@ -79,6 +90,12 @@
                     <div class="f3">
                         <h3>Straw-Beary Bingsu</h3>
                         <h3>$15.50</h3>
+                        <div class="buttons">
+                            <select id="selectNumber3" onclick="numbers3()">
+                                <option>Amount</option>
+                            </select>
+                        <button onclick="add3()">Add</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,6 +117,12 @@
                     <div class="d1">
                         <h3>Straw-Beary Latte</h3>
                         <h3>$7.50</h3>
+                        <div class="buttons">
+                            <select id="selectNumber4" onclick="numbers4()">
+                                <option>Amount</option>
+                            </select>
+                        <button onclick="add4()">Add</button>
+                        </div>
                     </div>
                 </div>
         
@@ -119,6 +142,12 @@
                     <div class="d2">
                         <h3>Straw-Beary Fresh Milk</h3>
                         <h3>$9.50</h3>
+                        <div class="buttons">
+                            <select id="selectNumber5" onclick="numbers5()">
+                                <option>Amount</option>
+                            </select>
+                        <button onclick="add5()">Add</button>
+                        </div>
                     </div>
                 </div>
                 
@@ -138,6 +167,12 @@
                     <div class="d3">
                         <h3>Straw-Beary Parfait</h3>
                         <h3>$10.50</h3>
+                        <div class="buttons">
+                            <select id="selectNumber6" onclick="numbers6()">
+                                <option>Amount</option>
+                            </select>
+                        <button onclick="add6()">Add</button>
+                        </div>
                     </div>
                 </div>
             </div>
