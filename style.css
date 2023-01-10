@@ -1,7 +1,25 @@
+a{
+  text-decoration: none;
+  color: #718355;
+  
+}
+a:hover{
+  color: #97A97C;
+  text-decoration: underline;
+}
+a:visited{
+  text-decoration: none;
+  color: #718355;
+}
 body{
   background-color: #E9F5DB;
   font-family: Nanum Pen Script;
   font-size: 150%;
+}
+.front{
+  background-image: url(strawberries.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .about{
   background-image: url(strawberries.png);
@@ -97,6 +115,7 @@ body{
   width: 85%;
   height: 85%;
   border-radius: 3%;
+
 }
 .sandpu .sandotext{
   visibility: hidden;
@@ -312,4 +331,32 @@ background-repeat: no-repeat;
 background-size: cover;
 border-top-left-radius: 3%;
 border-bottom-left-radius: 3%;
+}
+.buttons{
+  width: 100px;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: hsl(82, 18%, 51%);
+  margin-top: 5%;
+}
+.pp{
+  display: flex;
+  flex-direction: row;
+}
+.money{
+  margin-left: 85%;
+  width: 60px;
+  height: 10%;
+  margin-top: 3%;
+}
+.welcome {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 300%;
+}
+.fmenu{
+  text-align: center;
+  margin-top: -2%;
 }
