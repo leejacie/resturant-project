@@ -6,6 +6,7 @@ a{
 a:hover{
   color: #97A97C;
   text-decoration: underline;
+  opacity: 50%;
 }
 a:visited{
   text-decoration: none;
@@ -40,6 +41,12 @@ body{
   right:10px;
   top: 5px;
 }
+.logo:hover{
+  position: absolute;
+  right:10px;
+  top: 5px;
+  opacity: 50%;
+}
 .food{
   width: 50%;
   display: flex;
@@ -61,6 +68,13 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-left: 5%;
+}
+.f12, .f22, .f32, .d12, .d22, .d32{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 20%;
 }
 
 #bear{
@@ -177,6 +191,7 @@ body{
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
+
 .sandpu .show2{
   visibility: visible;
   -webkit-animation: fadeIn 1s;
@@ -202,6 +217,9 @@ body{
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
   
+}
+.ppu:hover, .mpu:hover, .bingpu:hover, .latpu:hover, .sandpu:hover, .bpu:hover{
+  box-shadow: 10px 10px 5px #97A97C;
 }
 
 /* Add animation (fade in the popup) */
@@ -333,12 +351,10 @@ border-top-left-radius: 3%;
 border-bottom-left-radius: 3%;
 }
 .buttons{
-  width: 100px;
+  width: 200px;
   height: 10%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  color: hsl(82, 18%, 51%);
   margin-top: 5%;
 }
 .pp{
@@ -359,4 +375,31 @@ border-bottom-left-radius: 3%;
 .fmenu{
   text-align: center;
   margin-top: -2%;
+  font-size: 200%;
+}
+
+input{
+  background-color: #E9F5DB;
+  border-radius: 5px;
+  font-family: Nanum Pen Script;
+  font-size: 100%;
+}
+input:hover{
+  background-color: #c8d2b7;
+  border-radius: 5px;
+  font-family: Nanum Pen Script;
+  font-size: 100%;
+  cursor:pointer;
+}
+button:hover{
+  background-color: #c8d2b7;
+  border-radius: 5px;
+  font-family: Nanum Pen Script;
+  font-size: 100%;
+}
+button{
+  background-color: #E9F5DB;
+  border-radius: 5px;
+  font-family: Nanum Pen Script;
+  font-size: 100%;
 }
