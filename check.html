@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
+        <script src="script2.js"></script>
         <title>Payment</title>
     </head>
     <body>
@@ -15,16 +16,92 @@
             </div>
             <h1>Cafe Straw-Beary</h1>
             <h3>Payment</h3>
-            <div class="rec">
-                <p>Cost</p>
-                <div class="b4">
+                <table class="recp">
+                    <tr>
+                        <th>Item(s)</th>
+                        <td> </td>
+                        <th>Amount</th>
+                        <td> </td>
+                        <th>Total Price</th>
+                    </tr>
+                    <tr>
+                        <td id="bread"> </td>
+                        <td> </td>
+                        <td id="bam"> </td>
+                        <td> </td>
+                        <td id="btt"> </td>
+                    </tr>
+                    <tr>
+                        <td id="stsando"> </td>
+                        <td> </td>
+                        <td id="ssam"> </td>
+                        <td> </td>
+                        <td id="sstt"> </td>
+                    </tr>
+                    <tr>
+                        <td id="stbing"> </td>
+                        <td> </td>
+                        <td id="bingam"> </td>
+                        <td> </td>
+                        <td id="bingtt"> </td>
+                    </tr>
+                    <tr>
+                        <td id="stlatte"> </td> 
+                        <td> </td>
+                        <td id="latteam"> </td>
+                        <td> </td>
+                        <td id="lattett"> </td>
+                    </tr>
+                    <tr>
+                        <td id="stmilk"> </td>
+                        <td> </td>
+                        <td id="milkam"> </td>
+                        <td> </td>
+                        <td id="milktt"> </td>
+                    </tr>
+                    <tr>
+                        <td id="yogurt"> </td>
+                        <td> </td>
+                        <td id="yogurtam"> </td>
+                        <td> </td>
+                        <td id="yogurttt"> </td>
+                    </tr>
+                    <tr>
 
-                </div>
-                <p>Tax</p>
-                
-                <p>Total Cost</p>
-                <p>TIP</p>
-            </div>
+                    </tr>
+                    <tr>
+                        <td>Subtotal:</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td id="totalAll"> </td>
+                    </tr>
+                    <tr>
+                        <td>Tax:</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td id="taxall"> </td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td id="taxANDTt"> </td>
+                    </tr>
+                </table>
+                <table id="tips">
+                    <tr>
+                        <td>Tips:</td>
+                        <td id="contip"><input type="number" id="contip" min="1"><button onclick="confirm()">Confirm</button></td>
+                    </tr>
+                    <tr>
+                        <td>Overall Total:</td>
+                        <td id="tipANDttt"> </td>
+                    </tr>
+                </table>
+                <button onclick="done()" id="done">Done :P</button>
         </div>  
     </body>
 </html>
